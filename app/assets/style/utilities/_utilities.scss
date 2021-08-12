@@ -535,9 +535,9 @@ $utilities: map-merge(
         "text-opacity": 1
       ),
       values: map-merge(
-        $utilities-text-colors,
+        $theme-colors, 
         (
-          "muted": $text-muted,  //edit $gray-600 = dark gray
+          "muted": $text-muted,  //edit gray 600 dark gray
           "black-50": rgba($black, .5), // deprecated
           "white-50": rgba($white, .5), // deprecated
           "reset": inherit,
@@ -563,7 +563,7 @@ $utilities: map-merge(
         "bg-opacity": 1
       ),
       values: map-merge(
-        $utilities-bg-colors,
+        $theme-colors,
         (
           "transparent": transparent
         )

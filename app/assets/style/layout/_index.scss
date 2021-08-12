@@ -1,5 +1,49 @@
-.index__h1 {
-  color:#00cc99;
-  font-size: 20px;
-  font-weight: 400;
+/* layout headers */
+.logo{
+    a{
+        text-indent: 101%;
+    }
+}
+
+.shopping-cart{
+
+    &::after{
+        content:"";
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        width: 20px;
+        height: 20px;
+
+        border-radius: 50%;
+        background-color: $secondary;
+        color: $white;
+        font-size: $font-size-base;
+        font-family: Roboto, sans-serif;
+
+    }
+}
+
+/* subscribe box */
+
+.subscribe{
+
+    &-banner{
+        background-image: url(https://images.unsplash.com/photo-1536768767433-cc552f38def9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+
+    }
+}
+
+/* utilities special spacer */
+.py-18{
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+/* components bg-img */
+
+.bg-img{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }

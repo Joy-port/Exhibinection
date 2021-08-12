@@ -14803,23 +14803,4 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
-
-/* layout headers */
-.logo a {
-  text-indent: 101%;
-}
-
-.shopping-cart::after {
-  content: "";
-  position: absolute;
-  top: -10px;
-  right: -10px;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: #e31277;
-  color: #fff;
-  font-size: 1rem;
-  font-family: Roboto, sans-serif;
-}
-/*# sourceMappingURL=all.css.map */
+/*# sourceMappingURL=bootstrap.css.map */
