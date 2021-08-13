@@ -1,7 +1,7 @@
 @import '../../../node_modules/bootstrap/scss/functions'; //抓出bs5 的變數function
 @import './helpers/variables'; //修改 bs5 變數內容
 @import '../../../node_modules/bootstrap/scss/utilities';
-@import 'utilities/utilities'; //修改 bs5  util 工具內容
+@import './utilities/utilities'; //修改 bs5  util 工具內容
 
 @import '../../../node_modules/bootstrap/scss/bootstrap';
 
