@@ -19,6 +19,19 @@
   width: 40px;
 }
 
+.w-65 {
+  width: 65px;
+}
+
+/* height */
+.h-256 {
+  height: 256px;
+}
+
+.bottom-25 {
+  bottom: 25%;
+}
+
 /*!
  * Bootstrap v5.1.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -16032,6 +16045,12 @@ fieldset:disabled .btn {
   .h2-md {
     font-size: 2.25rem;
   }
+}
+
+/* ticket exhibition */
+.ticket-banner {
+  background-image: url(https://images.unsplash.com/photo-1546013848-afcad42624d5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1789&q=80);
+  height: 400px;
 }
 
 /*# sourceMappingURL=all.css.map */
