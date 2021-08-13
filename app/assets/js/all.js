@@ -1,6 +1,5 @@
 //swipers
 //https://swiperjs.com/demos
-
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 3,
   spaceBetween: 30,

@@ -1,3 +1,4 @@
+//cover bootstrap settings getting API methods
 $utilities: map-merge(
   $utilities,
   (
@@ -108,3 +109,25 @@ $utilities: map-merge(
       ),
   )
 );
+
+
+/* utilities special spacer */
+.px-18{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.py-18{
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.py-44{
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+/* width */
+.w-40px{
+  width: 40px;
+}

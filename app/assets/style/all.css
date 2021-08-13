@@ -1,3 +1,24 @@
+/* utilities special spacer */
+.px-18 {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.py-18 {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.py-44 {
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+/* width */
+.w-40px {
+  width: 40px;
+}
+
 /*!
  * Bootstrap v5.1.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -15810,6 +15831,36 @@ fieldset:disabled .btn {
   }
 }
 
+/* swiper */
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* components bg-img */
+.bg-img {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* components card-img */
+.card-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+/* pages index */
 /* layout headers */
 .logo a {
   text-indent: 101%;
@@ -15835,14 +15886,14 @@ fieldset:disabled .btn {
 }
 
 /* exibition banner */
-.exibition-banner {
+.exhibition-banner {
   background-image: url(https://images.unsplash.com/photo-1506846540181-347008948fff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1193&q=80);
   height: 480px;
   padding-bottom: 80px;
 }
 
 @media (min-width: 768px) {
-  .exibition-banner {
+  .exhibition-banner {
     padding-bottom: 0;
   }
 }
@@ -15865,29 +15916,43 @@ fieldset:disabled .btn {
   width: 40px;
 }
 
-/* utilities special spacer */
-.px-18 {
-  padding-left: 18px;
-  padding-right: 18px;
+/* live streaming */
+.live-bg-img {
+  background-image: url(https://images.unsplash.com/photo-1511368466880-3ea5d800152c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80);
+  height: 464px;
 }
 
-.py-18 {
-  padding-top: 18px;
-  padding-bottom: 18px;
+@media (min-width: 768px) {
+  .live-bg-img {
+    height: 500px;
+  }
 }
 
-/* components bg-img */
-.bg-img {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+.live-bg-color {
+  background-color: #190014CC;
 }
 
-/* components card-img */
-.card-img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+.live-card-img {
+  width: 128px;
+  height: 128px;
+}
+
+/*  */
+@media (min-width: 768px) {
+  .pb-md-52 {
+    padding-bottom: 52px;
+  }
+}
+
+@media (min-width: 768px) {
+  .pt-md-80 {
+    padding-top: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  .h2-md {
+    font-size: 2.25rem;
+  }
 }
 /*# sourceMappingURL=all.css.map */
