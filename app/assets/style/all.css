@@ -14,9 +14,26 @@
   padding-bottom: 44px;
 }
 
+.mb-42 {
+  margin-bottom: 42px;
+}
+
 /* width */
 .w-40px {
   width: 40px;
+}
+
+.w-65 {
+  width: 65px;
+}
+
+/* height */
+.h-256 {
+  height: 256px;
+}
+
+.bottom-25 {
+  bottom: 25%;
 }
 
 /*!
@@ -15860,6 +15877,14 @@ fieldset:disabled .btn {
      object-position: center;
 }
 
+.btn-hover-secondary {
+  border-bottom: 1px solid transparent;
+}
+
+.btn-hover-secondary:hover {
+  border-bottom: 1px solid #e31277;
+}
+
 /* pages index */
 /* layout headers */
 .logo a {
@@ -15954,5 +15979,23 @@ fieldset:disabled .btn {
   .h2-md {
     font-size: 2.25rem;
   }
+}
+
+@media (min-width: 768px) {
+  .mb-md-42 {
+    margin-bottom: 42px;
+  }
+}
+
+@media (min-width: 768px) {
+  .h-md-256 {
+    height: 256px;
+  }
+}
+
+/* ticket exhibition */
+.ticket-banner {
+  background-image: url(https://images.unsplash.com/photo-1546013848-afcad42624d5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1789&q=80);
+  height: 400px;
 }
 /*# sourceMappingURL=all.css.map */

@@ -6,15 +6,37 @@
     
   }
   
-  .pt-md-80{
-    @include media-breakpoint-up(md){
-      padding-top: 80px;
-  }
-  
-  }
+.pt-md-80{
+  @include media-breakpoint-up(md){
+    padding-top: 80px;
+}
+
+}
 
 .h2-md{
     @include media-breakpoint-up(md){
         font-size: 2.25rem;
     }
+}
+
+.mb-md-42{
+  @include media-breakpoint-up(md){
+    margin-bottom: 42px;
+}
+}
+
+.h-md-256{
+  @include media-breakpoint-up(md){
+    height: 256px;
+}
+}
+
+/* ticket exhibition */
+
+.ticket{
+  &-banner{
+    background-image: url(https://images.unsplash.com/photo-1546013848-afcad42624d5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1789&q=80);
+
+    height: 400px;
+  }
 }
