@@ -28,8 +28,20 @@
 }
 
 /* height */
+.h-120 {
+  height: 120px;
+}
+
+.h-400 {
+  height: 400px;
+}
+
 .h-256 {
   height: 256px;
+}
+
+.h-560 {
+  height: 560px;
 }
 
 .bottom-25 {
