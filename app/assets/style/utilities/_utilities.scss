@@ -19,5 +19,16 @@
 }
 
 .vh-100-minus-header {
-  height: calc(100vh - 82px);
+  height: calc(100vh - 61px);
+  @include media-breakpoint-up(md) {
+    height: calc(100vh - 82px);
+  }
+  
+}
+
+.vh-100-minus-header-navbar {
+  height: calc(100vh - 115px);
+  @include media-breakpoint-up(md) {
+    height: calc(100vh - 135px);
+  }
 }
