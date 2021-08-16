@@ -15947,6 +15947,10 @@ fieldset:disabled .btn {
   padding-bottom: 44px;
 }
 
+.mt-61 {
+  margin-top: 61px;
+}
+
 .mb-42 {
   margin-bottom: 42px;
 }
@@ -15970,6 +15974,12 @@ fieldset:disabled .btn {
   }
 }
 
+@media (min-width: 768px) {
+  .mt-md-82 {
+    margin-top: 82px;
+  }
+}
+
 .bottom-25 {
   bottom: 25%;
 }
@@ -15981,6 +15991,10 @@ fieldset:disabled .btn {
 
 .w-65 {
   width: 65px;
+}
+
+.w-120 {
+  width: 120px;
 }
 
 /* height */
@@ -16073,6 +16087,19 @@ fieldset:disabled .btn {
   content: " ";
   border: 1px solid #e31277;
   background-color: #fff;
+}
+
+.scroll-bar::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+.scroll-bar::-webkit-scrollbar {
+  width: 2px;
+  background-color: black;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb {
+  background-color: #e31277;
 }
 
 /* pages index */
