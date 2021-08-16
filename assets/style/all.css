@@ -15997,17 +15997,23 @@ fieldset:disabled .btn {
   width: 120px;
 }
 
+@media (min-width: 768px) {
+  .w-md-350 {
+    width: 350px;
+  }
+}
+
 /* height */
 .h-120 {
   height: 120px;
 }
 
-.h-400 {
-  height: 400px;
-}
-
 .h-256 {
   height: 256px;
+}
+
+.h-345 {
+  height: 345px;
 }
 
 .h-400 {
@@ -16021,6 +16027,12 @@ fieldset:disabled .btn {
 @media (min-width: 768px) {
   .h-md-256 {
     height: 256px;
+  }
+}
+
+@media (min-width: 768px) {
+  .h-md-350 {
+    height: 350px;
   }
 }
 

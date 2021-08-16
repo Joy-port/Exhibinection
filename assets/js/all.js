@@ -16,12 +16,17 @@ var swiper = new Swiper(".swiper-js", {
       centeredSlides: false
     },
     768: {
+      slidesPerView: 2,
+      spaceBetween: 15,
+      centeredSlides: false
+    },
+    800: {
       slidesPerView: 2.5,
       spaceBetween: 15,
       centeredSlides: false
     },
     992: {
-      slidesPerView: 2.75,
+      slidesPerView: 3.25,
       spaceBetween: 30,
       centeredSlides: true
     }
