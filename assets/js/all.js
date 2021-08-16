@@ -4,17 +4,27 @@ function _readOnlyError(name) { throw new TypeError("\"" + name + "\" is read-on
 
 //swipers
 //https://swiperjs.com/demos
-var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 3,
-  spaceBetween: 30,
-  freeMode: true,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev"
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true
+//https://github.com/Hsuan777/2021SlicesWeek6/blob/develop/app/assets/js/all.js
+var swiper = new Swiper(".swiper-js", {
+  slidesPerView: 1,
+  spaceBetween: 0,
+  centeredSlides: false,
+  breakpoints: {
+    576: {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      centeredSlides: false
+    },
+    768: {
+      slidesPerView: 2.5,
+      spaceBetween: 15,
+      centeredSlides: false
+    },
+    992: {
+      slidesPerView: 2.75,
+      spaceBetween: 30,
+      centeredSlides: true
+    }
   }
 }); //ticket submit//notyet done
 
