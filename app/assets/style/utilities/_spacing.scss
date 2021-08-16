@@ -14,6 +14,10 @@
   padding-bottom: 44px;
 }
 
+.mt-61{
+  margin-top: 61px;
+}
+
 .mb-42 {
   margin-bottom: 42px;
 }
@@ -34,6 +38,12 @@
 .mb-md-42 {
   @include media-breakpoint-up(md) {
     margin-bottom: 42px;
+  }
+}
+
+.mt-md-82 {
+  @include media-breakpoint-up(md) {
+    margin-top: 82px;
   }
 }
 
