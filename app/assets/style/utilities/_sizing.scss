@@ -11,21 +11,29 @@
   width: 120px;
 }
 
+.w-md-350 {
+  @include media-breakpoint-up(md) {
+    width: 350px;
+  }
+}
+
 /* height */
 
 .h-120 {
   height: 120px;
 }
-.h-400 {
-  height: 400px;
-}
 .h-256 {
   height: 256px;
 }
 
-.h-400{
+.h-345{
+  height: 345px;
+}
+
+.h-400 {
   height: 400px;
 }
+
 
 .h-560 {
   height: 560px;
@@ -34,6 +42,12 @@
 .h-md-256 {
   @include media-breakpoint-up(md) {
     height: 256px;
+  }
+}
+
+.h-md-350 {
+  @include media-breakpoint-up(md) {
+    height: 350px;
   }
 }
 
