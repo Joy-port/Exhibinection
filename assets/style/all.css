@@ -15912,7 +15912,7 @@ fieldset:disabled .btn {
 }
 
 .vh-100-minus-header {
-  height: calc(100vh - 61px);
+  height: calc(100vh - 51px);
 }
 
 @media (min-width: 768px) {
