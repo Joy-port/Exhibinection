@@ -4,27 +4,22 @@
 var swiper = new Swiper(".swiper-js", {
   slidesPerView: 1,
   spaceBetween: 0,
-  centeredSlides: false,
   breakpoints: {
     576: {
       slidesPerView: 1,
       spaceBetween: 0,
-      centeredSlides: false,
+  
     },
     768: {
       slidesPerView: 2,
       spaceBetween: 15,
-      centeredSlides: false,
+  
     },
-    800:{
-      slidesPerView: 2.5,
-      spaceBetween: 15,
-      centeredSlides: false,
-    },
+ 
     992: {
-      slidesPerView: 3.25,
+      slidesPerView: 3,
       spaceBetween: 30,
-      centeredSlides: true,
+      centeredSlides: false,
     },
   },
 });
