@@ -461,7 +461,7 @@
       <div class="container-md mb-7 mb-md-13">
         <h3 class="h3 fw-bold mb-2 mb-md-7">猜你也喜歡...</h3>
         <!-- Swiper for PC-->
-        <div class="swiper-container swiper | swiper-js">
+        <div class="swiper-container swiper | swiper-js | offset-md-1">
         <ul class="swiper-wrapper | d-flex flex-wrap list-unstyled  ps-0 | flex-md-nowrap  "
         style="cursor: grab;">
           <li class="swiper-slide">
@@ -509,11 +509,12 @@
             
         </ul>
       </div>
-      </div>
+    </div>
         
     </section>
     <!-- subscribe  -->
-    <section class="subscribe-banner | bg-img">
+    <section>
+      <div class="subscribe-banner | bg-img">
       <div class="container-md pb-11">
         <div class="d-flex flex-column justify-content-end">
           <h4 class="h3 text-white | mb-0">想收到最新消息嗎？</h4>
@@ -542,6 +543,7 @@
           </div>
         </div>
       </div>
+    </div>
     </section>
 
     <!-- footer -->
@@ -562,7 +564,7 @@
     <!-- scroll 將背景滾動功能關閉 -->
     <!-- backdrop 將背景半透明暗灰的色塊去除 -->
     <div
-      class="vh-100-minus-header | offcanvas offcanvas-end | bg-black w-100 pt-6 px-10 mt-13 | w-md-75 pt-md-10 mt-md-82 | w-lg-50"
+      class="vh-100-minus-header | offcanvas offcanvas-end | bg-black w-100 pt-6 px-10 mt-60 | w-md-75 pt-md-10 mt-md-82 | w-lg-50"
       tabindex="-1"
       id="cart-offcanvas"
       aria-labelledby="cart-offcanvas-label"
@@ -583,7 +585,7 @@
       <!-- offcanvas body ul list + button -->
         <div class="offcanvas-body p-0">
           <!-- tickets list -->
-          <ul class="scroll-bar | overflow-auto ps-0 | pe-2 pe-md-5">
+          <ul class="scroll-bar overflow-y-auto ps-0 | pe-2 pe-md-5">
             <li class="card border-0 mb-2 card-close">
               <button
               type="button"
