@@ -16274,7 +16274,7 @@ fieldset:disabled .btn {
 }
 
 .scroll-bar::-webkit-scrollbar {
-  width: 2px;
+  width: 4px;
   background-color: black;
 }
 
