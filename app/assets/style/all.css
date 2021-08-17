@@ -16039,8 +16039,8 @@ fieldset:disabled .btn {
   padding-bottom: 44px;
 }
 
-.mt-60 {
-  margin-top: 60px;
+.pt-60 {
+  padding-top: 60px;
 }
 
 .mb-42 {
@@ -16063,12 +16063,6 @@ fieldset:disabled .btn {
 @media (min-width: 768px) {
   .mb-md-42 {
     margin-bottom: 42px;
-  }
-}
-
-@media (min-width: 768px) {
-  .mt-md-82 {
-    margin-top: 82px;
   }
 }
 
@@ -16195,12 +16189,35 @@ fieldset:disabled .btn {
 }
 
 .scroll-bar::-webkit-scrollbar {
-  width: 4px;
+  width: 2px;
   background-color: black;
 }
 
 .scroll-bar::-webkit-scrollbar-thumb {
   background-color: #e31277;
+}
+
+.scroll-bar {
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+
+.scroll-bar ::-webkit-scrollbar {
+  width: 10px !important;
+}
+
+.scroll-bar ::-webkit-scrollbar-track {
+  background: #fff !important;
+}
+
+.scroll-bar ::-webkit-scrollbar-thumb {
+  background: #E31277 !important;
+}
+
+.scroll-bar ::-webkit-scrollbar-thumb:hover {
+  background: #555 !important;
 }
 
 /* pages index */
