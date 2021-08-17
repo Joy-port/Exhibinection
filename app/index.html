@@ -139,14 +139,26 @@ display: ' '
       <ul class="ps-0">
         <li class="card border-0 bg-light | py-7 px-5 mb-5 | p-md-0 mb-md-6">
           <div class="row g-0 gx-7">
-            <div class="col-md-4 popular-list">
+            <!-- 不同圖片縮放效果 -->
+            
+            <!-- 整張等比例放大縮小 -->
+            <!--  <div class="col-md-4 h-md-350">
               <img
                 class="card-img w-100 h-100 img-fluid mb-2 | mb-md-0"
                 src="https://images.unsplash.com/photo-1545987796-b199d6abb1b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
                 alt="exhibition img"
               />
+            </div> -->
+
+
+            <!-- 多加一個外框 圖片在方筐內放大縮小-->
+            <div class="col-md-5 col-lg-4
+              position-relative overflow-hidden
+              h-345 h-md-auto">
+                <img src="https://images.unsplash.com/photo-1545987796-b199d6abb1b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="展覽圖片" class="card-img h-345 w-100">
             </div>
-            <div class="col-md-6 popular-list py-md-12">
+
+            <div class="col-md-5 col-lg-6 h-md-350 py-md-12">
               <div class="d-flex flex-column justify-content-md-between h-100">
                 <div class="h-100 flex-grow-1 | mb-6 mb-md-0">
                   <div
@@ -160,7 +172,7 @@ display: ' '
                       mb-md-1
                     "
                   >
-                    <div class="d-flex align-items-center">
+                    <div class="d-flex align-items-center flex-wrap">
                       <h2 class="h6 fw-bold mb-0 me-2">2020 台味設計展</h2>
                       <a href="#" class="d-block link-black p-0 d-md-none">
                         <i class="fs-6 fab fa-facebook align-middle"></i>
@@ -174,7 +186,7 @@ display: ' '
                   </p>
                 </div>
 
-                <div class="d-flex">
+                <div class="d-flex flex-wrap">
                   <a href="ticket.html" class="btn btn-primary me-1 py-2 px-5"
                     >購買票券</a
                   >
@@ -186,7 +198,7 @@ display: ' '
             </div>
             <div
               class="
-                popular-list
+                h-md-350
                 |
                 d-none
                 |
@@ -214,14 +226,15 @@ display: ' '
         </li>
         <li class="card border-0 bg-light | py-7 px-5 mb-5 | p-md-0 mb-md-6">
           <div class="row g-0 gx-7">
-            <div class="col-md-4 popular-list">
+            <div class="col-md-5 col-lg-4 h-md-350">
+              <!-- 整張等比例放大縮小 -->
               <img
-                class="card-img w-100 h-100 img-fluid mb-2 | mb-md-0"
+                class="card-img w-100 h-100 mb-2 | mb-md-0"
                 src="https://images.unsplash.com/photo-1510520001634-6af954f45759?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1506&q=80"
                 alt="exhibition img"
               />
             </div>
-            <div class="col-md-6 popular-list py-md-12">
+            <div class="col-md-5 col-lg-6 h-md-350 py-md-12">
               <div class="d-flex flex-column justify-content-md-between h-100">
                 <div class="h-100 flex-grow-1 | mb-6 mb-md-0">
                   <div
@@ -235,7 +248,7 @@ display: ' '
                       mb-md-1
                     "
                   >
-                    <div class="d-flex align-items-center">
+                    <div class="d-flex align-items-center flex-wrap">
                       <h2 class="h6 fw-bold mb-0 me-2">No.22 線上設計展</h2>
                       <a href="#" class="d-block link-black p-0 d-md-none">
                         <i class="fs-6 fab fa-facebook align-middle"></i>
@@ -249,7 +262,7 @@ display: ' '
                   </p>
                 </div>
 
-                <div class="d-flex">
+                <div class="d-flex flex-wrap">
                   <a href="ticket.html" class="btn btn-primary me-1 py-2 px-5"
                     >購買票券</a
                   >
@@ -261,7 +274,7 @@ display: ' '
             </div>
             <div
               class="
-                popular-list
+                h-md-350
                 |
                 d-none
                 |
@@ -289,14 +302,14 @@ display: ' '
         </li>
         <li class="card border-0 bg-light | py-7 px-5 | p-md-0 mb-md-6">
           <div class="row g-0 gx-7">
-            <div class="col-md-4 popular-list">
+            <div class="col-md-5 col-lg-4 h-md-350">
               <img
                 class="card-img w-100 h-100 img-fluid mb-2 | mb-md-0"
                 src="https://images.unsplash.com/photo-1545178803-4056771d60a3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
                 alt="exhibition img"
               />
             </div>
-            <div class="col-md-6 popular-list py-md-12">
+            <div class="col-md-5 col-lg-6 h-md-350 py-md-12">
               <div class="d-flex flex-column justify-content-md-between h-100">
                 <div class="h-100 flex-grow-1 | mb-6 mb-md-0">
                   <div
@@ -310,7 +323,7 @@ display: ' '
                       mb-md-1
                     "
                   >
-                    <div class="d-flex align-items-center">
+                    <div class="d-flex align-items-center flex-wrap">
                       <h2 class="h6 fw-bold mb-0 me-2">高雄設計節</h2>
                       <a href="#" class="d-block link-black p-0 d-md-none">
                         <i class="fs-6 fab fa-facebook align-middle"></i>
@@ -324,7 +337,7 @@ display: ' '
                   </p>
                 </div>
 
-                <div class="d-flex">
+                <div class="d-flex flex-wrap">
                   <a href="ticket.html" class="btn btn-primary me-1 py-2 px-5"
                     >購買票券</a
                   >
@@ -336,7 +349,7 @@ display: ' '
             </div>
             <div
               class="
-                popular-list
+                h-md-350
                 |
                 d-none
                 |
@@ -369,34 +382,31 @@ display: ' '
   <!-- 直播回顧 -->
   <section>
     <div class="container-md mb-7 mb-md-13">
-      <h3 class="h3 fw-bold mb-2 mb-md-7">直播回顧</h3>
+      <h3 class="fw-bold mb-2 mb-md-7">直播回顧</h3>
       <div class="live-bg-img | bg-img | card border-0">
-        <div class="row g-0 h-100">
-          <div class="col-md-6 col-lg-5 position-relative">
-            <div class="live-bg-color opacity-75 h-100"></div>
-
-            <div class="scroll-bar | card-img-overlay p-0 overflow-y-auto">
-              <div class="text-white | py-12 px-7">
-                <p class="h5 mb-10">
-                  <span class="fw-bold">開幕對談</span>｜藝術展演巡禮
-                </p>
-                <img
-                  src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/people.png?raw=true"
-                  alt="user"
-                  class="live-card-img | img-fluid mb-2"
-                />
-
-                <p class="h6 fw-bold mt-1 mb-2">臺北現代聯合總監｜Ken Hsu</p>
-                <p class="h6 fw-normal mt-1 mb-5">
-                  獨家由藝術家、策展人、畫廊總監帶您欣賞台
-                  北藝術特展，感受雕塑、展演及當代日常文化 之間微妙的關係。
-                </p>
-                <a href="#" class="btn btn-secondary py-2 px-11">點此觀看</a>
-              </div>
-            </div>
+        <div class="row g-0">
+          <!-- 顏色本身有透明度，不需要另外做調整 -->
+          <div class="col-lg-5 | bg-primary-dark text-white | py-12 px-7">
+            <p class="h5 mb-10">
+              <span class="fw-bold">開幕對談</span>｜藝術展演巡禮
+            </p>
+            <img
+              src="https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/people.png?raw=true"
+              alt="user"
+              class="w-128 h-128 img-fluid mb-2"
+            />
+  
+            <p class="h6 fw-bold mt-1 mb-2">臺北現代聯合總監｜Ken Hsu</p>
+            <p class="h6 fw-normal mt-1 mb-5">
+              獨家由藝術家、策展人、畫廊總監帶您欣賞台
+              北藝術特展，感受雕塑、展演及當代日常文化 之間微妙的關係。
+            </p>
+            <a href="#" class="btn btn-secondary py-2 px-11">點此觀看</a>
           </div>
         </div>
       </div>
     </div>
+
   </section>
+
 </main>

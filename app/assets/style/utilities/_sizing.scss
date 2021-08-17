@@ -10,6 +10,9 @@
 .w-120 {
   width: 120px;
 }
+.w-128{
+  width: 128px;
+}
 
 .w-md-350 {
   @include media-breakpoint-up(md) {
@@ -21,6 +24,10 @@
 
 .h-120 {
   height: 120px;
+}
+
+.h-128{
+  height: 128px;
 }
 .h-256 {
   height: 256px;
@@ -50,9 +57,3 @@
   }
 }
 
-/* font */
-.h2-md {
-  @include media-breakpoint-up(md) {
-    font-size: 2.25rem;
-  }
-}
