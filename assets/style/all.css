@@ -16076,26 +16076,6 @@ fieldset:disabled .btn {
   border-bottom: 1px solid #e31277;
 }
 
-.vh-100-minus-header {
-  height: calc(100vh - 60px);
-}
-
-@media (min-width: 768px) {
-  .vh-100-minus-header {
-    height: calc(100vh - 82px);
-  }
-}
-
-.vh-100-minus-header-navbar {
-  height: calc(100vh - 115px);
-}
-
-@media (min-width: 768px) {
-  .vh-100-minus-header-navbar {
-    height: calc(100vh - 135px);
-  }
-}
-
 /* color */
 .bg-primary-dark {
   background-color: #190014CC;
@@ -16125,25 +16105,6 @@ fieldset:disabled .btn {
   margin-bottom: 42px;
 }
 
-/* rwd */
-@media (min-width: 768px) {
-  .pb-md-52 {
-    padding-bottom: 52px;
-  }
-}
-
-@media (min-width: 768px) {
-  .pt-md-80 {
-    padding-top: 80px;
-  }
-}
-
-@media (min-width: 768px) {
-  .mb-md-42 {
-    margin-bottom: 42px;
-  }
-}
-
 /* width */
 .w-40px {
   width: 40px;
@@ -16163,12 +16124,6 @@ fieldset:disabled .btn {
 
 .w-540 {
   width: 540px;
-}
-
-@media (min-width: 768px) {
-  .w-md-350 {
-    width: 350px;
-  }
 }
 
 /* height */
@@ -16196,6 +16151,33 @@ fieldset:disabled .btn {
   height: 560px;
 }
 
+/* rwd */
+@media (min-width: 768px) {
+  .pb-md-52 {
+    padding-bottom: 52px;
+  }
+}
+
+@media (min-width: 768px) {
+  .pt-md-80 {
+    padding-top: 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  .mb-md-42 {
+    margin-bottom: 42px;
+  }
+}
+
+/* width */
+@media (min-width: 768px) {
+  .w-md-350 {
+    width: 350px;
+  }
+}
+
+/* height */
 @media (min-width: 768px) {
   .h-md-256 {
     height: 256px;
@@ -16206,6 +16188,41 @@ fieldset:disabled .btn {
   .h-md-350 {
     height: 350px;
   }
+}
+
+/* vh */
+.vh-100-minus-header {
+  height: calc(100vh - 60px);
+}
+
+@media (min-width: 768px) {
+  .vh-100-minus-header {
+    height: calc(100vh - 82px);
+  }
+}
+
+.vh-100-minus-header-navbar {
+  height: calc(100vh - 115px);
+}
+
+@media (min-width: 768px) {
+  .vh-100-minus-header-navbar {
+    height: calc(100vh - 135px);
+  }
+}
+
+.notification-circle::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #e31277;
+  color: #fff;
+  font-size: 1rem;
+  font-family: Roboto, sans-serif;
 }
 
 /* swiper */
@@ -16288,20 +16305,6 @@ fieldset:disabled .btn {
 /* layout headers */
 .logo a {
   text-indent: 101%;
-}
-
-.shopping-cart::after {
-  content: "";
-  position: absolute;
-  top: -10px;
-  right: -10px;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: #e31277;
-  color: #fff;
-  font-size: 1rem;
-  font-family: Roboto, sans-serif;
 }
 
 /* menu */
