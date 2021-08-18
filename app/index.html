@@ -3,12 +3,17 @@ title: EXHIBINECTION
 layout: ./app/layout.ejs
 engine: ejs
 current: index
-menubar: ' d-none '
-display: ' '
+menubar: " d-none "
+display: " "
 ---
 
 <!-- exhibition banner -->
-<div class="exhibition-banner bg-img h-480 pb-80 pb-md-0" style="background-image: url(https://images.unsplash.com/photo-1506846540181-347008948fff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1193&q=80);">
+<div
+  class="exhibition-banner bg-img h-480 pb-80 pb-md-0"
+  style="
+    background-image: url(https://images.unsplash.com/photo-1506846540181-347008948fff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1193&q=80);
+  "
+>
   <div class="container-md h-100">
     <div
       class="
@@ -33,9 +38,7 @@ display: ' '
           class="w-50 w-md-25 btn btn-secondary btn-lg | me-2"
           >購買票券</a
         >
-        <a
-          href="info.html"
-          class="w-50 w-md-25 btn btn-outline-light btn-lg"
+        <a href="info.html" class="w-50 w-md-25 btn btn-outline-light btn-lg"
           >詳細資訊</a
         >
       </div>
@@ -140,7 +143,7 @@ display: ' '
         <li class="card border-0 bg-light | py-7 px-5 mb-5 | p-md-0 mb-md-6">
           <div class="row g-0 gx-7">
             <!-- 不同圖片縮放效果 -->
-            
+
             <!-- 整張等比例放大縮小 -->
             <!--  <div class="col-md-4 h-md-350">
               <img
@@ -150,12 +153,20 @@ display: ' '
               />
             </div> -->
 
-
             <!-- 多加一個外框 圖片在方筐內放大縮小-->
-            <div class="col-md-5 col-lg-4
-              position-relative overflow-hidden
-              h-345 h-md-auto">
-                <img src="https://images.unsplash.com/photo-1545987796-b199d6abb1b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="展覽圖片" class="card-img h-345 w-100">
+            <div
+              class="
+                col-md-5 col-lg-4
+                position-relative
+                overflow-hidden
+                h-345 h-md-auto
+              "
+            >
+              <img
+                src="https://images.unsplash.com/photo-1545987796-b199d6abb1b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+                alt="展覽圖片"
+                class="card-img h-345 w-100"
+              />
             </div>
 
             <div class="col-md-5 col-lg-6 h-md-350 py-md-12">
@@ -383,7 +394,12 @@ display: ' '
   <section>
     <div class="container-md mb-7 mb-md-13">
       <h3 class="fw-bold mb-2 mb-md-7">直播回顧</h3>
-      <div class="bg-img | card border-0" style="background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/people2.png?raw=truehttps://images.unsplash.com/photo-1511368466880-3ea5d800152c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80); ">
+      <div
+        class="bg-img | card border-0"
+        style="
+          background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/exhibition-week6/people2.png?raw=truehttps://images.unsplash.com/photo-1511368466880-3ea5d800152c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80);
+        "
+      >
         <div class="row g-0">
           <!-- 顏色本身有透明度，不需要另外做調整 -->
           <div class="col-lg-5 | bg-primary-dark text-white | py-12 px-7">
@@ -395,7 +411,7 @@ display: ' '
               alt="user"
               class="w-128 h-128 img-fluid mb-2"
             />
-  
+
             <p class="h6 fw-bold mt-1 mb-2">臺北現代聯合總監｜Ken Hsu</p>
             <p class="h6 fw-normal mt-1 mb-5">
               獨家由藝術家、策展人、畫廊總監帶您欣賞台
@@ -406,7 +422,5 @@ display: ' '
         </div>
       </div>
     </div>
-
   </section>
-
 </main>
