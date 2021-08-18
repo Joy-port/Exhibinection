@@ -1,3 +1,6 @@
+//Aos
+AOS.init();
+
 //swipers
 //https://swiperjs.com/demos
 //https://github.com/Hsuan777/2021SlicesWeek6/blob/develop/app/assets/js/all.js
