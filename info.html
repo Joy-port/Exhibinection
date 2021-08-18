@@ -33,8 +33,8 @@
 
   <body>
     <!-- ！！記得新增漢堡選單功能 -->
-    <!-- header  -->
-    <header class="border border-dark bg-white position-relative" style="z-index: 1080;">
+    <!-- navbar  -->
+    <nav class="border-bottom bg-white position-relative" style="z-index: 1080;">
       <div class="py-18 | container-md py-md-8 | position-relative">
         <h1 class="logo | position-absolute top-50 start-50 translate-middle">
           <a href="index.html" class="h5 link-primary | text-nowrap"
@@ -62,10 +62,10 @@
           </div>
         </div>
       </div>
-    </header>
+    </nav>
 
     <!-- menu navbar  -->
-    <nav class="border-bottom | border-md  ">
+    <nav class="border-bottom  ">
       <div class="container-lg | overflow-y-hidden menu-list">
         <ul
           class="
@@ -124,7 +124,7 @@
         <!-- 票券購買 修改版本 -->
         <div class="row">
           <!-- exhibition info -->
-          <div class="col-md-6 mb-13">
+          <div class="col-lg-6 mb-13">
             <div class="card border-0 bg-transparent">
               <!-- pc card img of exhibition & date  -->
               <div class="card border-0 bg-transparent | mb-2">
@@ -175,9 +175,9 @@
             </div>
       </div>
           <!-- tickets  -->
-          <div class="col-md-6">
+          <div class="col-lg-6">
             <div class="row">
-               <div class="col-md-6 h-md-256 pt-md-80">
+               <div class="col-md-6 h-md-256 pt-md-80 border-0 border-end-md">
                  <div class="d-flex justify-content-center align-items-center mb-7">
                   <a class="d-block link-black" type="button">
                     <span class="material-icons-outlined">
@@ -225,208 +225,6 @@
           </div>
         </div>         
       </div>
-        <!-- 購買票券 原版 -->
-        <div class="row">
-          <!-- exhibition info -->
-          <div class="col-md-6">
-            <div class="card border-0 bg-transparent">
-              <!-- pc card img of exhibition & date  -->
-              <div class="card border-0 bg-transparent | mb-2">
-                <img
-                  class="h-256 | card-img"
-                  src="https://images.unsplash.com/photo-1545987796-b199d6abb1b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
-                  alt="exhibition img"
-                />
-                <div class="card-img-overlay d-none d-md-block p-0">
-                  <div
-                    class="d-flex justify-content-end align-items-center h-100"
-                  >
-                    <p class="h6 text-white fw-bold mb-0 w-65">
-                      01 JUN
-                      <br />
-                      |
-                      <br />
-                      31 OCT
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <!-- exibition info -->
-              <div class="d-flex flex-column justify-content-between h-100">
-                <div
-                  class="
-                    d-flex
-                    justify-content-between
-                    align-items-center
-                    |
-                    mb-1
-                    |
-                    mb-md-1
-                  "
-                >
-                  <div class="d-flex align-items-center">
-                    <h2 class="h6 fw-bold mb-0 me-2">2020 台味設計展</h2>
-                    <a href="#" class="link-black p-0">
-                      <i class="fs-6 fab fa-facebook align-middle"></i>
-                    </a>
-                  </div>
-                  <p class="mb-0 | d-md-none">01 JUN — 31 OCT</p>
-                </div>
-                <p class="h6 mb-0">
-                  一年一度的台味設計展由經濟部工業局主辦、台灣創意設計中心執行，每年，針對在地生活、文化及產業發展特色，運用設計思考詮釋新時代的意涵，並以展覽呈現在地設計。
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- tickets  -->
-          <div class="col-md-3">
-            <div class="row | mt-12 mb-7 h-md-256 mt-md-0 mb-md-12">
-              <div
-                class="
-                  col-4 col-md
-                  d-flex
-                  flex-column
-                  justify-content-center
-                  align-items-end
-                "
-              >
-                <a class="d-block link-black" type="button">
-                  <span class="material-icons-outlined">
-                    remove
-                    </span>
-                </a>
-              </div>
-              <div
-                class="
-                  col col-md
-                  d-flex
-                  flex-column
-                  justify-content-center
-                  align-items-center
-                  position-relative
-                "
-              >
-                <p class="h1 fw-bold mb-0">01</p>
-
-                <!-- pad pc -->
-                <span
-                  class="
-                    d-none d-md-block
-                    position-absolute
-                    bottom-25
-                    text-dark
-                  "
-                  >張</span
-                >
-              </div>
-              <div
-                class="
-                  col-4 col-md
-                  d-flex
-                  flex-column
-                  justify-content-center
-                  border-end border-dark
-                "
-              >
-                <a class="d-block link-black" type="button">
-                  <!-- outline 格式無法使用？ -->
-                  <span class="material-icons-outlined">
-                    add
-                    </span>
-                </a>
-              </div>
-            </div>
-            <!-- mobile only -->
-            <p class="d-md-none text-dark text-center w-100 mb-12">張</p>
-            <!-- pad pc only -->
-            <a
-              href="#"
-              class="d-none d-md-block | btn btn-outline-primary w-100 py-2"
-              type="button"
-              >收藏展覽</a
-            >
-          </div>
-          <div class="col-md-3">
-            <div
-              class="
-                d-flex
-                flex-column
-                justify-content-center
-                |
-                position-relative
-                |
-                h-md-256
-                mb-12
-              "
-            >
-              <p class="h1 fw-bold text-center mb-7 mb-md-0">NT $350</p>
-              <!-- mobile -->
-              <p class="text-dark text-center mb-2 d-md-none">票種</p>
-              <!-- pc pad -->
-              <p
-                class="
-                  d-none d-md-block
-                  text-dark
-                  position-absolute
-                  bottom-25
-                  start-50
-                  translate-middle-x
-                  mb-0
-                "
-              >
-                票種
-              </p>
-              <!-- mobile -->
-              <div class="d-md-none input-group justify-content-center">
-                <a href="#" class="btn-hover-secondary px-2" type="button"
-                  >學生</a
-                >
-                <a href="#" class="btn-hover-secondary px-2" type="button"
-                  >全票</a
-                >
-                <a href="#" class="btn-hover-secondary px-2" type="button"
-                  >愛心</a
-                >
-              </div>
-              <!-- pad pc -->
-              <div
-                class="
-                  position-absolute
-                  bottom-0
-                  start-50
-                  translate-middle-x
-                  input-group
-                  justify-content-center
-                "
-              >
-                <a href="#" class="btn-hover-secondary px-2" type="button"
-                  >學生</a
-                >
-                <a href="#" class="btn-hover-secondary px-2" type="button"
-                  >全票</a
-                >
-                <a href="#" class="btn-hover-secondary px-2" type="button"
-                  >愛心</a
-                >
-              </div>
-            </div>
-            <!-- pc pad -->
-            <a
-              href="#"
-              class="d-none d-md-block | btn btn-secondary w-100 py-2"
-              type="button"
-              >購買票券</a
-            >
-            <div class="row d-md-none">
-              <div class="col-6">
-                <a href="#" class="btn btn-outline-primary w-100">收藏展覽</a>
-              </div>
-              <div class="col-6">
-                <a href="#" class="btn btn-secondary w-100">購買票券</a>
-              </div>
-            </div>
-          </div>
-        </div>
 
     </div>
   </section>
