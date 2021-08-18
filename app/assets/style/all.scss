@@ -9,6 +9,10 @@
 @import './utilities/spacing';
 @import './utilities/sizing';
 
+@import './mixin/spacing';
+@import './mixin/sizing';
+
+@import './components/notification';
 @import './components/swiper';
 @import './components/timeline';
 @import './components/scrollbar';

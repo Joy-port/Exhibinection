@@ -21,22 +21,3 @@
 .mb-42 {
   margin-bottom: 42px;
 }
-
-/* rwd */
-.pb-md-52 {
-  @include media-breakpoint-up(md) {
-    padding-bottom: 52px;
-  }
-}
-
-.pt-md-80 {
-  @include media-breakpoint-up(md) {
-    padding-top: 80px;
-  }
-}
-
-.mb-md-42 {
-  @include media-breakpoint-up(md) {
-    margin-bottom: 42px;
-  }
-}

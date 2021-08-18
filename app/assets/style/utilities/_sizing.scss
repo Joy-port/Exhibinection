@@ -15,11 +15,6 @@
 .w-540 {
   width: 540px;
 }
-.w-md-350 {
-  @include media-breakpoint-up(md) {
-    width: 350px;
-  }
-}
 
 /* height */
 
@@ -27,7 +22,7 @@
   height: 120px;
 }
 
-.h-128{
+.h-128 {
   height: 128px;
 }
 .h-256 {
@@ -45,16 +40,3 @@
 .h-560 {
   height: 560px;
 }
-
-.h-md-256 {
-  @include media-breakpoint-up(md) {
-    height: 256px;
-  }
-}
-
-.h-md-350 {
-  @include media-breakpoint-up(md) {
-    height: 350px;
-  }
-}
-

@@ -18,20 +18,6 @@
   }
 }
 
-.vh-100-minus-header {
-  height: calc(100vh - 60px);
-  @include media-breakpoint-up(md) {
-    height: calc(100vh - 82px);
-  }
-}
-
-.vh-100-minus-header-navbar {
-  height: calc(100vh - 115px);
-  @include media-breakpoint-up(md) {
-    height: calc(100vh - 135px);
-  }
-}
-
 /* color */
 .bg-primary-dark{
   background-color: #190014CC;

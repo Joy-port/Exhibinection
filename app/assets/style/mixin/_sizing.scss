@@ -1,0 +1,35 @@
+/* width */
+.w-md-350 {
+  @include media-breakpoint-up(md) {
+    width: 350px;
+  }
+}
+
+/* height */
+.h-md-256 {
+  @include media-breakpoint-up(md) {
+    height: 256px;
+  }
+}
+
+.h-md-350 {
+  @include media-breakpoint-up(md) {
+    height: 350px;
+  }
+}
+
+/* vh */
+
+.vh-100-minus-header {
+  height: calc(100vh - 60px);
+  @include media-breakpoint-up(md) {
+    height: calc(100vh - 82px);
+  }
+}
+
+.vh-100-minus-header-navbar {
+  height: calc(100vh - 115px);
+  @include media-breakpoint-up(md) {
+    height: calc(100vh - 135px);
+  }
+}
