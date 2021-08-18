@@ -16168,6 +16168,11 @@ fieldset:disabled .btn {
   text-indent: 101%;
 }
 
+/* z-index */
+.z-index-1080 {
+  z-index: 1080;
+}
+
 /* width */
 @media (min-width: 768px) {
   .w-md-350 {
