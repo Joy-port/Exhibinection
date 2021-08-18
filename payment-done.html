@@ -15,10 +15,7 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://storage.googleapis.com/non-spec-apps/mio-icons/latest/outline.css"
-    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
@@ -28,6 +25,8 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="./assets/style/bootstrap.css" />
     <link rel="stylesheet" href="./assets/style/all.css" />
   </head>
@@ -123,21 +122,15 @@
 <main>
     <section>
         <div class="vh-100-minus-header-navbar container-lg">
-        <div class="row justify-content-center align-items-center h-100">
-            <div class="col-md-8 col-lg-6 h-100">
-                <div class="d-flex flex-column justify-content-between h-100 | justify-content-md-center">
-                    <div class="flex-grow-1 h-100 mt-12 | flex-md-grow-0 h-md-auto mt-md-0 mb-md-13">
-                        <div class="text-center mb-7">
-                            <i class="far fa-check-circle | h1 text-primary mb-2"></i>
-                            <h2 class="mt-1 mb-0 text-primary">完成訂購</h2>
+                <div class="row flex-md-column justify-content-md-center h-100">
+                    <div class="col-md-8 col-lg-6 mx-auto h-100 | d-flex flex-column justify-content-between | d-md-block h-md-auto">
+                        <div class="flex-grow-1 h-100 | h-md-auto | mt-12 | mt-md-0 mb-md-13">
+                            <i class="far fa-check-circle | d-block h1 text-center  text-primary | mb-2"></i>
+                            <h2 class="text-center text-primary mt-1 mb-7 ">完成訂購</h2>
+                            <p class="mb-12">您的展覽憑證代碼為：</p>
+                            <p class="text-center text-primary h5 mb-12">qr147352</p>
+                            <p class="mb-0">恭喜您已完成「2020 台味設計展」的購票手續，請於 2020/06/01 ~ 2020/10/31 於展覽入口頁面輸入「展覽憑證代碼」，經驗證無誤即可瀏覽。</p>
                         </div>
-                    
-                        <p class="mb-12">您的展覽憑證代碼為：</p>
-                        <p class="text-center text-primary h5 mb-12">qr147352</p>
-                        <p class="mb-0">恭喜您已完成「2020 台味設計展」的購票手續，請於 2020/06/01 ~ 2020/10/31 於展覽入口頁面輸入「展覽憑證代碼」，經驗證無誤即可瀏覽。</p>
-                    </div>
-
-                    <div class="footer">
                         <div class="row mb-12 mt-md-11 mb-md-0">
                             <div class="col-6">
                                 <a href="#" class="btn btn-outline-primary py-2 w-100">繼續瀏覽</a>
@@ -148,9 +141,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
-    </div>
     </section>
 </main>
 
@@ -323,13 +314,17 @@
               "
             >
               <a href="#" class="link-black mb-1 mb-md-0 p-0 pe-md-1"
-                ><i class="fas fa-minus"></i></a
+                ><span class="material-icons-outlined">
+                  remove
+                  </span></a
               >
               <a href="#" class="link-black mb-1 mb-md-0 p-0 mx-md-2">
                 <p class="h1 fw-bold mb-0">01</p>
               </a>
               <a href="#" class="link-black mb-1 mb-md-0 p-0 ps-md-1"
-                ><i class="fas fa-plus"></i></a
+                ><span class="material-icons-outlined">
+                  add
+                  </span></a
               >
             </div>
             </div>
@@ -372,15 +367,19 @@
                 w-30
               "
             >
-              <a href="#" class="link-black mb-1 mb-md-0 p-0 pe-md-1"
-                ><i class="fas fa-minus"></i></a
-              >
-              <a href="#" class="link-black mb-1 mb-md-0 p-0 mx-md-2">
-                <p class="h1 fw-bold mb-0">01</p>
-              </a>
-              <a href="#" class="link-black mb-1 mb-md-0 p-0 ps-md-1"
-                ><i class="fas fa-plus"></i></a
-              >
+            <a href="#" class="link-black mb-1 mb-md-0 p-0 pe-md-1"
+            ><span class="material-icons-outlined">
+              remove
+              </span></a
+          >
+          <a href="#" class="link-black mb-1 mb-md-0 p-0 mx-md-2">
+            <p class="h1 fw-bold mb-0">01</p>
+          </a>
+          <a href="#" class="link-black mb-1 mb-md-0 p-0 ps-md-1"
+            ><span class="material-icons-outlined">
+              add
+              </span></a
+          >
             </div>
             </div>
           </div>
@@ -422,15 +421,19 @@
                 w-30
               "
             >
-              <a href="#" class="link-black mb-1 mb-md-0 p-0 pe-md-1"
-                ><i class="fas fa-minus"></i></a
-              >
-              <a href="#" class="link-black mb-1 mb-md-0 p-0 mx-md-2">
-                <p class="h1 fw-bold mb-0">01</p>
-              </a>
-              <a href="#" class="link-black mb-1 mb-md-0 p-0 ps-md-1"
-                ><i class="fas fa-plus"></i></a
-              >
+            <a href="#" class="link-black mb-1 mb-md-0 p-0 pe-md-1"
+            ><span class="material-icons-outlined">
+              remove
+              </span></a
+          >
+          <a href="#" class="link-black mb-1 mb-md-0 p-0 mx-md-2">
+            <p class="h1 fw-bold mb-0">01</p>
+          </a>
+          <a href="#" class="link-black mb-1 mb-md-0 p-0 ps-md-1"
+            ><span class="material-icons-outlined">
+              add
+              </span></a
+          >
             </div>
             </div>
           </div>
@@ -450,7 +453,7 @@
         
     </div>
     
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./assets/js/vendors.js"></script>
