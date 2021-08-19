@@ -23,7 +23,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
@@ -226,7 +225,10 @@
         pb-md-0
         offset-md-1
       "
-    >
+      data-aos="fade-in"
+      data-aos-duration="1200"
+      data-aos-delay="100"
+      >
       <div class="content">
         <h2 class="fw-bold text-white | mb-2">台北當代藝術展</h2>
         <p class="h6 text-white | mb-3">01 JUN - 31 OCT</p>
@@ -334,10 +336,14 @@
   <!-- 熱門特展 -->
   <section>
     <div class="container-md mb-7 mb-md-13">
-      <h3 class="h3 fw-bold mb-2 mb-md-7 | aos-init aos-animate"  data-aos="fade-right" data-aos-duration="1200">熱門特展</h3>
+      <h3 class="h3 fw-bold mb-2 mb-md-7"  data-aos="fade-in" data-aos-duration="1200">熱門特展</h3>
       <ul class="ps-0">
-        <li class="card border-0 bg-light | py-7 px-5 mb-5 | p-md-0 mb-md-6">
-          <div class="row g-0 gx-7">
+        <li class="card border-0 bg-light | py-7 px-5 mb-5 | p-md-0 mb-md-6">   
+          <div class="row g-0 gx-7" 
+                data-aos="fade-left" 
+                data-aos-duration="1200" 
+          >
+          
             <!-- 不同圖片縮放效果 -->
 
             <!-- 整張等比例放大縮小 -->
@@ -358,11 +364,13 @@
                 h-345 h-md-auto
               "
             >
+            <a href="info.html" class="p-0 d-block h-100 align-middle">
               <img
                 src="https://images.unsplash.com/photo-1545987796-b199d6abb1b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
                 alt="展覽圖片"
-                class="card-img h-345 w-100"
+                class="card-img h-100 w-100"
               />
+            </a>
             </div>
 
             <div class="col-md-5 col-lg-6 h-md-350 py-md-12">
@@ -377,7 +385,9 @@
                       mb-md-1
                     "
                   >
-                    <div class="d-flex align-items-center flex-wrap">
+                    <div class="d-flex align-items-center flex-wrap" 
+                    data-aos="fade-left" 
+                    data-aos-duration="1300"> 
                       <h2 class="h6 fw-bold mb-0 me-2">2020 台味設計展</h2>
                       <a href="#" class="d-block link-black p-0 d-md-none">
                         <i class="fs-6 fab fa-facebook align-middle"></i>
@@ -385,13 +395,16 @@
                     </div>
                     <p class="mb-0 d-md-none">01 JUN — 31 OCT</p>
                   </div>
-                  <p class="h6 mb-0 mb-2">$350</p>
-                  <p class="h6 mb-0">
+                  <p class="h6 mb-0 mb-2" data-aos="fade-left" 
+                  data-aos-duration="1300">$350</p>
+                  <p class="h6 mb-0" data-aos="fade-left" 
+                  data-aos-duration="1400">
                     一年一度的台味設計展由經濟部工業局主辦、台灣創意設計中心執行，每年，針對在地生活、文化及產業發展特色，運用設計思考詮釋新時代的意涵，並以展覽呈現在地設計。
                   </p>
                 </div>
 
-                <div class="d-flex flex-wrap">
+                <div class="d-flex flex-wrap" data-aos="fade-left" 
+                data-aos-duration="1400">
                   <a href="info.html" class="btn btn-primary me-1 py-2 px-5"
                     >購買票券</a
                   >
@@ -410,6 +423,8 @@
                 col-md-1
                 py-12
               "
+              data-aos="fade-left" 
+              data-aos-duration="1400"
             >
               <div class="d-flex flex-column justify-content-between h-100">
                 <p class="w-40px | h6 fw-bold h-100 flex-grow-1 | mb-0">
@@ -427,14 +442,19 @@
           </div>
         </li>
         <li class="card border-0 bg-light | py-7 px-5 mb-5 | p-md-0 mb-md-6">
-          <div class="row g-0 gx-7">
+          <div class="row g-0 gx-7" 
+                data-aos="fade-left" 
+                data-aos-duration="1200" 
+          >
             <div class="col-md-5 col-lg-4 h-md-350">
               <!-- 整張等比例放大縮小 -->
+              <a href="info.html" class="p-0 d-block h-100">
               <img
                 class="card-img w-100 h-100 mb-2 | mb-md-0"
                 src="https://images.unsplash.com/photo-1510520001634-6af954f45759?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1506&q=80"
                 alt="exhibition img"
               />
+              </a>
             </div>
             <div class="col-md-5 col-lg-6 h-md-350 py-md-12">
               <div class="d-flex flex-column justify-content-md-between h-100">
@@ -448,7 +468,9 @@
                       mb-md-1
                     "
                   >
-                    <div class="d-flex align-items-center flex-wrap">
+                    <div class="d-flex align-items-center flex-wrap"
+                    data-aos="fade-left" 
+                    data-aos-duration="1300">
                       <h2 class="h6 fw-bold mb-0 me-2">No.22 線上設計展</h2>
                       <a href="#" class="d-block link-black p-0 d-md-none">
                         <i class="fs-6 fab fa-facebook align-middle"></i>
@@ -456,13 +478,16 @@
                     </div>
                     <p class="mb-0 d-md-none">01 JUN — 31 OCT</p>
                   </div>
-                  <p class="h6 mb-0 mb-2">$350</p>
-                  <p class="h6 mb-0">
+                  <p class="h6 mb-0 mb-2" data-aos="fade-left" 
+                  data-aos-duration="1300">$350</p>
+                  <p class="h6 mb-0" data-aos="fade-left" 
+                  data-aos-duration="1400">
                     這是一個專屬於設計系畢業生的展覽，沒有華麗的名號、沒有浮誇的獎賞。讓我們用作品與理念，去碰撞真實世界裡的各種問題，創造更多美好的人事物。讓這個地球、這個世界變成每一個人心目中的理想鄉。
                   </p>
                 </div>
 
-                <div class="d-flex flex-wrap">
+                <div class="d-flex flex-wrap" data-aos="fade-left" 
+                data-aos-duration="1400">
                   <a href="info.html" class="btn btn-primary me-1 py-2 px-5"
                     >購買票券</a
                   >
@@ -481,6 +506,8 @@
                 col-md-1
                 py-12
               "
+              data-aos="fade-left" 
+              data-aos-duration="1400"
             >
               <div class="d-flex flex-column justify-content-between h-100">
                 <p class="w-40px | h6 fw-bold h-100 flex-grow-1 | mb-0">
@@ -498,13 +525,17 @@
           </div>
         </li>
         <li class="card border-0 bg-light | py-7 px-5 | p-md-0 mb-md-6">
-          <div class="row g-0 gx-7">
+          <div class="row g-0 gx-7"
+                data-aos="fade-left" 
+                data-aos-duration="1200" >
             <div class="col-md-5 col-lg-4 h-md-350">
+              <a href="info.html" class="p-0 d-block h-100">
               <img
                 class="card-img w-100 h-100 img-fluid mb-2 | mb-md-0"
                 src="https://images.unsplash.com/photo-1545178803-4056771d60a3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
                 alt="exhibition img"
               />
+              </a>
             </div>
             <div class="col-md-5 col-lg-6 h-md-350 py-md-12">
               <div class="d-flex flex-column justify-content-md-between h-100">
@@ -519,20 +550,26 @@
                     "
                   >
                     <div class="d-flex align-items-center flex-wrap">
-                      <h2 class="h6 fw-bold mb-0 me-2">高雄設計節</h2>
+                      <h2 class="h6 fw-bold mb-0 me-2"
+                      data-aos="fade-left" 
+                      data-aos-duration="1300">高雄設計節</h2>
                       <a href="#" class="d-block link-black p-0 d-md-none">
                         <i class="fs-6 fab fa-facebook align-middle"></i>
                       </a>
                     </div>
                     <p class="mb-0 d-md-none">01 JUN — 31 OCT</p>
                   </div>
-                  <p class="h6 mb-0 mb-2">$350</p>
-                  <p class="h6 mb-0">
+                  <p class="h6 mb-0 mb-2"
+                  data-aos="fade-left" 
+                  data-aos-duration="1300">$350</p>
+                  <p class="h6 mb-0" data-aos="fade-left" 
+                  data-aos-duration="1400">
                     設計大高雄究竟是怎麼一回事？在這「設計」詞彙有點氾濫的年代，或許我們也搞不清楚究竟誰被誰設計了，設計生活？還是被生活設計？而當高雄這座城市建設硬體已相當程度完備時，文化軟實力又該如何輸出？
                   </p>
                 </div>
 
-                <div class="d-flex flex-wrap">
+                <div class="d-flex flex-wrap"  data-aos="fade-left" 
+                data-aos-duration="1400">
                   <a href="info.html" class="btn btn-primary me-1 py-2 px-5"
                     >購買票券</a
                   >
@@ -551,6 +588,8 @@
                 col-md-1
                 py-12
               "
+              data-aos="fade-left" 
+              data-aos-duration="1400"
             >
               <div class="d-flex flex-column justify-content-between h-100">
                 <p class="w-40px | h6 fw-bold h-100 flex-grow-1 | mb-0">
@@ -574,7 +613,7 @@
   <!-- 直播回顧 -->
   <section>
     <div class="container-md mb-7 mb-md-13">
-      <h3 class="fw-bold mb-2 mb-md-7 aos-init aos-animate"  data-aos="fade-right" data-aos-duration="1200">直播回顧</h3>
+      <h3 class="fw-bold mb-2 mb-md-7"  data-aos="fade-in" data-aos-duration="1200">直播回顧</h3>
       <div
         class="bg-img | card border-0"
         style="
@@ -610,7 +649,7 @@
     <!-- 猜你也喜歡 -->
     <section>
       <div class="container-md mb-7 mb-md-13  ">
-        <h2 class="h3 fw-bold mb-2 mb-md-7 | aos-init aos-animate"  data-aos="fade-right" data-aos-duration="1200">猜你也喜歡...</h2>
+        <h2 class="h3 fw-bold mb-2 mb-md-7"  data-aos="fade-in" data-aos-duration="1200"  data-aos-delay="100">猜你也喜歡...</h2>
         <!-- Swiper for PC-->
         <div class="swiper-container swiper | swiper-js | offset-md-1">
           <ul
@@ -924,7 +963,6 @@
     </div>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>

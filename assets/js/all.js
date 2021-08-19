@@ -1,7 +1,9 @@
 "use strict";
 
 //Aos
-AOS.init(); //swipers
+AOS.init({
+  once: true
+}); //swipers
 //https://swiperjs.com/demos
 //https://github.com/Hsuan777/2021SlicesWeek6/blob/develop/app/assets/js/all.js
 
