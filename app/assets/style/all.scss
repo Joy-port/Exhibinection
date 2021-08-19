@@ -5,9 +5,13 @@
 
 @import '../../../node_modules/bootstrap/scss/bootstrap';
 
+@import './utilities/hover/hover.scss'; //hover effects
+
 @import './utilities/sizing';
 @import './utilities/spacing';
 @import './utilities/utilities';
+
+
 
 @import './mixin/sizing';
 @import './mixin/spacing';
