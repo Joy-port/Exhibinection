@@ -1,5 +1,7 @@
 //Aos
-AOS.init();
+AOS.init({
+  once: true,
+});
 
 //swipers
 //https://swiperjs.com/demos
