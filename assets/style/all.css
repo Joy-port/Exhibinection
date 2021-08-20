@@ -21735,6 +21735,12 @@ img {
 }
 
 /* vh */
+@media (min-width: 768px) {
+  .vh-100-md-header-navbar {
+    height: calc(100vh - 145px);
+  }
+}
+
 @media (min-width: 992px) {
   .vh-100-lg-header {
     height: calc(100vh - 92px);
