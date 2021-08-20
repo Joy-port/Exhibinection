@@ -21735,13 +21735,9 @@ img {
 }
 
 /* vh */
-.vh-100-minus-header {
-  height: calc(100vh - 60px);
-}
-
-@media (min-width: 768px) {
-  .vh-100-minus-header {
-    height: calc(100vh - 90px);
+@media (min-width: 992px) {
+  .vh-100-lg-header {
+    height: calc(100vh - 92px);
   }
 }
 
