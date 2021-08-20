@@ -1,0 +1,43 @@
+/* img */
+.bg-img {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.card-img {
+  object-fit: cover;
+  object-position: center;
+}
+
+/* rwd heights */
+.h-md-256 {
+  @include media-breakpoint-up(md) {
+    height: 256px;
+  }
+}
+
+.h-md-350 {
+  @include media-breakpoint-up(md) {
+    height: 350px;
+  }
+}
+
+/* rwd spacing */
+.pb-md-52 {
+  @include media-breakpoint-up(md) {
+    padding-bottom: 52px;
+  }
+}
+
+.pt-md-80 {
+  @include media-breakpoint-up(md) {
+    padding-top: 80px;
+  }
+}
+
+.mb-md-42 {
+  @include media-breakpoint-up(md) {
+    margin-bottom: 42px;
+  }
+}

@@ -1,16 +1,3 @@
-/* height */
-.h-md-256 {
-  @include media-breakpoint-up(md) {
-    height: 256px;
-  }
-}
-
-.h-md-350 {
-  @include media-breakpoint-up(md) {
-    height: 350px;
-  }
-}
-
 /* vh */
 
 .vh-100-minus-header {

@@ -1,42 +1,42 @@
 /* component timeline */
 
 .timeline {
-    &-section {
-      position: relative;
-      margin: 20px 0;
-  
-      &::before {
-        content: "";
-        position: absolute;
-        left: 0;
-        right: 0;
-        height: 3px;
-        background-color:  map-get($theme-colors, "secondary");
-      }
+  &-section {
+    position: relative;
+    margin: 20px 0;
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background-color: map-get($theme-colors, "secondary");
     }
-  
-    &-pointer {
-      position: relative;
-      display: flex;
-      justify-content: center;
-  
+  }
+
+  &-pointer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    &::after {
+      content: " ";
+      position: absolute;
+      left: 50%;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      transform: translate(-50%, -25%);
+      background-color: map-get($theme-colors, "secondary");
+    }
+
+    &-undone {
       &::after {
         content: " ";
-        position: absolute;
-        left: 50%;
-        width: 8px;
-        height: 8px;
-        border-radius: 50%;
-        transform: translate(-50%, -25%);
-        background-color:map-get($theme-colors, "secondary");
-      }
-  
-      &-undone {
-        &::after {
-          content: " ";
-          border: 1px solid map-get($theme-colors, "secondary");
-          background-color: map-get($theme-colors, "white");;
-        }
+        border: 1px solid map-get($theme-colors, "secondary");
+        background-color: map-get($theme-colors, "white");
       }
     }
   }
+}

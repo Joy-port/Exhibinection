@@ -7,12 +7,13 @@
 
 @import './utilities/hover/hover.scss'; //hover effects
 
+@import './helpers/helpers';  //rwd heights and widths
+@import './helpers/mixin';   //vh
+
 @import './utilities/sizing';
 @import './utilities/spacing';
 @import './utilities/utilities';
 
-@import './mixin/sizing';
-@import './mixin/spacing';
 
 @import './components/swiper';
 @import './components/timeline';
