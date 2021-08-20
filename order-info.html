@@ -1211,33 +1211,31 @@
           <div class="modal-body">
             <form class="mb-8 needs-validation" novalidate>
               <div class="mb-6">
-                <label for="userEmail" class="form-label">信箱帳號</label>
+                <label for="userEmailSignIn" class="form-label">信箱帳號</label>
                 <input
                   type="email"
                   name="input email"
-                  id="userEmail"
-                  class="form-control is-invalid text-dark py-2"
+                  id="userEmailSignIn"
+                  class="form-control text-dark py-2"
                   placeholder="example@gmail.com"
                   required
                 />
                 <div class="invalid-feedback">請輸入正確格式的email帳號</div>
               </div>
               <div class="mb-6">
-                <label for="userPassword" class="form-label">密碼</label>
+                <label for="userPasswordSignIn" class="form-label">密碼</label>
                 <input
                   type="password"
-                  name="input email"
+                  name="input passwordSignIn"
                   id="userPassword"
-                  class="form-control is-invalid text-dark py-2"
+                  class="form-control text-dark py-2"
                   placeholder="請輸入密碼"
                   required
                 />
-                <div class="invalid-feedback">請輸入八位數中英文大小寫密碼</div>
               </div>
               <button
                 class="btn btn-secondary text-center w-100"
-                data-bs-toggle="modal"
-                data-bs-dismiss="modal"
+                type="submit"
               >
                 登入
               </button>
@@ -1298,19 +1296,18 @@
                   type="text"
                   name="input email"
                   id="userName"
-                  class="form-control is-invalid text-dark py-2"
+                  class="form-control text-dark py-2"
                   placeholder="王小明"
                   required
                 />
-                <div class="invalid-feedback">此為必填項目</div>
               </div>
               <div class="mb-6">
                 <label for="userNickName" class="form-label">暱稱</label>
                 <input
                   type="text"
-                  name="input email"
+                  name="input nickname"
                   id="userNickName"
-                  class="form-control is-invalid text-dark py-2"
+                  class="form-control text-dark py-2"
                   placeholder="Emily453"
                   required
                 />
@@ -1322,23 +1319,21 @@
                   type="email"
                   name="input email"
                   id="userEmail"
-                  class="form-control is-invalid text-dark py-2"
+                  class="form-control text-dark py-2"
                   placeholder="example@gmail.com"
                   required
                 />
-                <div class="invalid-feedback">請輸入正確格式的email帳號</div>
               </div>
               <div class="mb-6">
                 <label for="userPassword" class="form-label">密碼</label>
                 <input
                   type="password"
-                  name="input email"
+                  name="input password"
                   id="userPassword"
-                  class="form-control is-invalid text-dark py-2"
+                  class="form-control text-dark py-2"
                   placeholder="請輸入密碼"
                   required
                 />
-                <div class="invalid-feedback">請輸入八位數中英文大小寫密碼</div>
               </div>
               <div class="mb-6">
                 <label for="userPassword2" class="form-label"
@@ -1346,9 +1341,9 @@
                 >
                 <input
                   type="password"
-                  name="input email"
+                  name="input password"
                   id="userPassword2"
-                  class="form-control is-invalid text-dark py-2"
+                  class="form-control text-dark py-2"
                   placeholder="請輸入密碼"
                   required
                 />
