@@ -287,10 +287,483 @@
 
     
 <main>
+  <!-- 修正d-none 為order 排列方式 mobile 為優先排列 -->
+  <section>
+    <div class="container-lg">
+      <!--pc 第一行 -->
+      <div class="row">
+        <!-- timeline -->
+        <div class="col-md-7 col-lg-8 order-md-1">
+          <div class="row timeline-section">
+            <div class="col">
+              <div class="timeline-pointer">
+                <p class="fw-light pt-2 mb-0">確認訂單</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="timeline-pointer">
+                <p class="text-center fw-medium pt-2 mb-0">填寫訂購資訊</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="timeline-pointer timeline-pointer-undone">
+                <p class="text-center fw-light pt-2 mb-0">填寫付款資訊</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="timeline-pointer timeline-pointer-undone">
+                <p class="fw-light pt-2 mb-0">完成訂購</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  payment info form 記得加上validation-->
+        <div class="col-md-5 col-lg-4 order-md-3">
+          <form class="mb-12">
+                <h3 class="h6 fw-medium mb-6">付款資訊</h3>
+
+                <div class="mb-6">
+                  <label for="buyerCreditCard" class="form-label"
+                    >信用卡帳號</label
+                  >
+                  <input
+                    type="text"
+                    name="input number"
+                    id="buyerCreditCard"
+                    class="form-control text-dark py-2"
+                    placeholder="Xxxx-xxxx-xxxx-xxxx"
+                  />
+                </div>
+                <div class="mb-6">
+                  <label for="validDate" class="form-label">有效日期</label>
+                  <input
+                    type="text"
+                    name="input date"
+                    id="validDate"
+                    class="form-control text-dark py-2"
+                    placeholder="(MM/YY)"
+                  />
+                </div>
+                <div class="mb-6">
+                  <label for="securityCode" class="form-label">安全碼</label>
+                  <input
+                    type="password"
+                    name="input security code"
+                    id="securityCode"
+                    class="form-control text-dark py-2"
+                    placeholder="***"
+                  />
+                </div>
+              </form>
+        </div>
+        <!-- 小計 mobile -->
+        <div class="col d-md-none">
+          <ul>
+            <li
+              class="
+                d-flex
+                justify-content-between
+                align-items-center
+                text-nowrap
+                mb-2
+              "
+            >
+              <p class="mb-0">小計</p>
+              <p class="fw-light mb-0">NT$1050</p>
+            </li>
+            <li
+              class="
+                d-flex
+                justify-content-between
+                align-items-center
+                text-nowrap
+                mb-2
+              "
+            >
+              <p class="mb-0">折扣</p>
+              <p class="fw-light mb-0">-NT$50</p>
+            </li>
+            <li
+              class="
+                d-flex
+                justify-content-between
+                align-items-center
+                text-nowrap
+                mb-2
+              "
+            >
+              <p class="h6 fw-medium mb-0">總金額</p>
+              <p class="h6 fw-medium mb-0">NT$1000</p>
+            </li>
+          </ul>
+        </div>
+        <!-- exhibition info -->
+        <div class="col-md-7 col-lg-8 mb-12 mb-lg-0 order-md-2">
+          <ul>
+            <li class="card border-0 mb-6 card-close">
+              <div class="card-body d-flex justify-content-between p-0 mb-2">
+                <div class="d-flex">
+                  <div class="w-50 w-md-25 me-5">
+                    <img
+                      src="https://images.unsplash.com/photo-1545987796-b199d6abb1b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+                      alt="exhibition img"
+                      class="card-img h-100"
+                    />
+                  </div>
+                  <div
+                    class="
+                      w-50 w-md-auto
+                      d-flex
+                      flex-column
+                      justify-content-center
+                      ms-4
+                      me-md-5
+                    "
+                  >
+                    <div class="d-flex justify-content-between">
+                      <h2 class="fs-7 fw-bold mb-0">2020 台味設計展</h2>
+                      <button
+                        type="button"
+                        class="d-md-none btn-close link-black text-reset"
+                        data-bs-dismiss="card-close"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+
+                    <p class="mb-0">01 JUN — 31 OCT</p>
+                    <!-- mobile -->
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="d-flex align-items-center">
+                        <p class="text-dark me-1 mb-0">全票</p>
+                        <a class="d-block d-md-none fw-bold align-middle"> 1</a>
+                      </div>
+                      <p class="d-md-none h6 fw-bold mb-0">NT$350</p>
+                    </div>
+                  </div>
+                  <!-- pc pad  -->
+                  <div
+                    class="
+                      d-none d-md-flex
+                      flex-column
+                      justify-content-center
+                      ms-md-4
+                      me-md-5
+                    "
+                  >
+                    <p class="h6 fw-bold mb-0">NT$350</p>
+                  </div>
+                  <!-- -01+ -->
+                  <div
+                    class="
+                      d-md-flex d-none
+                      flex-column flex-md-row
+                      justify-content-center
+                      align-items-center
+                      w-25
+                    "
+                  >
+                    <a
+                      href="#"
+                      class="link-black mb-1 mb-md-0 p-0 pe-md-1 | hvr-shrink"
+                      ><span class="material-icons-outlined"> remove </span></a
+                    >
+                    <a href="#" class="link-black mb-1 mb-md-0 p-0 mx-md-2">
+                      <p class="h1 fw-bold mb-0">01</p>
+                    </a>
+                    <a
+                      href="#"
+                      class="link-black mb-1 mb-md-0 p-0 ps-md-1 | hvr-grow"
+                      ><span class="material-icons-outlined"> add </span></a
+                    >
+                  </div>
+                </div>
+                <!-- close btn -->
+                <div
+                  class="
+                    d-none d-md-flex
+                    flex-column
+                    justify-content-center
+                    align-items-center
+                    ms-md-4
+                  "
+                >
+                  <button
+                    type="button"
+                    class="btn-close link-black text-reset p-0"
+                    data-bs-dismiss="card-close"
+                    aria-label="Close"
+                  ></button>
+                </div>
+              </div>
+            </li>
+            <li class="card border-0 mb-6 card-close">
+              <div class="card-body d-flex justify-content-between p-0 mb-2">
+                <div class="d-flex">
+                  <div class="w-50 w-md-25 me-5">
+                    <img
+                      src="https://images.unsplash.com/photo-1510520001634-6af954f45759?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1506&q=80"
+                      alt="exhibition img"
+                      class="card-img h-100"
+                    />
+                  </div>
+                  <div
+                    class="
+                      w-50 w-md-auto
+                      d-flex
+                      flex-column
+                      justify-content-center
+                      ms-4
+                      me-md-5
+                    "
+                  >
+                    <div class="d-flex justify-content-between">
+                      <h2 class="fs-7 fw-bold mb-0">No.22 線上設計展</h2>
+                      <button
+                        type="button"
+                        class="d-md-none btn-close link-black text-reset"
+                        data-bs-dismiss="card-close"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+
+                    <p class="mb-0">01 JUN — 31 OCT</p>
+                    <!-- mobile -->
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="d-flex align-items-center">
+                        <p class="text-dark me-1 mb-0">全票</p>
+                        <a class="d-block d-md-none fw-bold align-middle"> 1</a>
+                      </div>
+                      <p class="d-md-none h6 fw-bold mb-0">NT$350</p>
+                    </div>
+                  </div>
+                  <!-- pc pad  -->
+                  <div
+                    class="
+                      d-none d-md-flex
+                      flex-column
+                      justify-content-center
+                      ms-md-4
+                      me-md-5
+                    "
+                  >
+                    <p class="h6 fw-bold mb-0">NT$350</p>
+                  </div>
+                  <!-- -01+ -->
+                  <div
+                    class="
+                      d-md-flex d-none
+                      flex-column flex-md-row
+                      justify-content-center
+                      align-items-center
+                      w-25
+                    "
+                  >
+                    <a
+                      href="#"
+                      class="link-black mb-1 mb-md-0 p-0 pe-md-1 | hvr-shrink"
+                      ><span class="material-icons-outlined"> remove </span></a
+                    >
+                    <a href="#" class="link-black mb-1 mb-md-0 p-0 mx-md-2">
+                      <p class="h1 fw-bold mb-0">01</p>
+                    </a>
+                    <a
+                      href="#"
+                      class="link-black mb-1 mb-md-0 p-0 ps-md-1 | hvr-grow"
+                      ><span class="material-icons-outlined"> add </span></a
+                    >
+                  </div>
+                </div>
+                <!-- close btn -->
+                <div
+                  class="
+                    d-none d-md-flex
+                    flex-column
+                    justify-content-center
+                    align-items-center
+                    ms-md-4
+                  "
+                >
+                  <button
+                    type="button"
+                    class="btn-close link-black text-reset p-0"
+                    data-bs-dismiss="card-close"
+                    aria-label="Close"
+                  ></button>
+                </div>
+              </div>
+            </li>
+            <li class="card border-0 mb-6 card-close">
+              <div class="card-body d-flex justify-content-between p-0 mb-2">
+                <div class="d-flex">
+                  <div class="w-50 w-md-25 me-5">
+                    <img
+                      src="https://images.unsplash.com/photo-1545178803-4056771d60a3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+                      alt="exhibition img"
+                      class="card-img h-100"
+                    />
+                  </div>
+                  <div
+                    class="
+                      w-50 w-md-auto
+                      d-flex
+                      flex-column
+                      justify-content-center
+                      ms-4
+                      me-md-5
+                    "
+                  >
+                    <div class="d-flex justify-content-between">
+                      <h2 class="fs-7 fw-bold mb-0">高雄設計節</h2>
+                      <button
+                        type="button"
+                        class="d-md-none btn-close link-black text-reset"
+                        data-bs-dismiss="card-close"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+
+                    <p class="mb-0">01 JUN — 31 OCT</p>
+                    <!-- mobile -->
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="d-flex align-items-center">
+                        <p class="text-dark me-1 mb-0">全票</p>
+                        <a class="d-block d-md-none fw-bold align-middle"> 1</a>
+                      </div>
+                      <p class="d-md-none h6 fw-bold mb-0">NT$350</p>
+                    </div>
+                  </div>
+                  <!-- pc pad  -->
+                  <div
+                    class="
+                      d-none d-md-flex
+                      flex-column
+                      justify-content-center
+                      ms-md-4
+                      me-md-5
+                    "
+                  >
+                    <p class="h6 fw-bold mb-0">NT$350</p>
+                  </div>
+                  <!-- -01+ -->
+                  <div
+                    class="
+                      d-md-flex d-none
+                      flex-column flex-md-row
+                      justify-content-center
+                      align-items-center
+                      w-25
+                    "
+                  >
+                    <a
+                      href="#"
+                      class="link-black mb-1 mb-md-0 p-0 pe-md-1 | hvr-shrink"
+                      ><span class="material-icons-outlined"> remove </span></a
+                    >
+                    <a href="#" class="link-black mb-1 mb-md-0 p-0 mx-md-2">
+                      <p class="h1 fw-bold mb-0">01</p>
+                    </a>
+                    <a
+                      href="#"
+                      class="link-black mb-1 mb-md-0 p-0 ps-md-1 | hvr-grow"
+                      ><span class="material-icons-outlined"> add </span></a
+                    >
+                  </div>
+                </div>
+                <!-- close btn -->
+                <div
+                  class="
+                    d-none d-md-flex
+                    flex-column
+                    justify-content-center
+                    align-items-center
+                    ms-md-4
+                  "
+                >
+                  <button
+                    type="button"
+                    class="btn-close link-black text-reset p-0"
+                    data-bs-dismiss="card-close"
+                    aria-label="Close"
+                  ></button>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- pc 第二行 小計 pc pad -->
+      <div class="row justify-content-md-end">
+        <div class="d-none d-md-block col-md-5 col-lg-4">
+          <ul>
+            <li
+              class="
+                d-flex
+                justify-content-between
+                align-items-center
+                text-nowrap
+                mb-2
+              "
+            >
+              <p class="mb-0">小計</p>
+              <p class="fw-light mb-0">NT$1050</p>
+            </li>
+            <li
+              class="
+                d-flex
+                justify-content-between
+                align-items-center
+                text-nowrap
+                mb-2
+              "
+            >
+              <p class="mb-0">折扣</p>
+              <p class="fw-light mb-0">-NT$50</p>
+            </li>
+            <li
+              class="
+                d-flex
+                justify-content-between
+                align-items-center
+                text-nowrap
+                mb-2
+              "
+            >
+              <p class="h6 fw-medium mb-0">總金額</p>
+              <p class="h6 fw-medium mb-0">NT$1000</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- pc 第三行 btn -->
+      <div class="row justify-content-md-between mb-12">
+        <div class="col-6 col-md-3 col-lg-2">
+          <a
+            href="order.html"
+            class="btn btn-outline-primary w-100 me-5 | hvr-shrink"
+            >返回</a
+          >
+        </div>
+        <div class="col-6 col-md-5 col-lg-4">
+          <a
+            href="payment-info.html"
+            class="btn btn-secondary w-100 | hvr-shrink"
+            >下一步
+          </a>
+        </div>
+      </div>｀
+    </div>
+  </section>
+  <!-- Ver 1 用 d-none排版 -->
   <section>
     <div class="container-lg">
       <div
-        class="d-flex flex-column justify-content-between vh-100-minus-header"
+        class="d-flex flex-column justify-content-between"
       >
         <div class="content">
           <!-- timeline -->
