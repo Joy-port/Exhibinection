@@ -10,6 +10,10 @@ AOS.init({
 var swiper = new Swiper(".swiper-js", {
   slidesPerView: 1,
   spaceBetween: 0,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: true
+  },
   breakpoints: {
     576: {
       slidesPerView: 1,

@@ -21786,8 +21786,8 @@ fieldset:disabled .btn {
 }
 
 /* z-index */
-.z-index-1080 {
-  z-index: 1080;
+.z-index-1055 {
+  z-index: 1055;
 }
 
 /* height */
@@ -21841,20 +21841,6 @@ fieldset:disabled .btn {
   .mb-md-42 {
     margin-bottom: 42px;
   }
-}
-
-.notification-circle::after {
-  content: "";
-  position: absolute;
-  top: -10px;
-  right: -10px;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: #e31277;
-  color: #fff;
-  font-size: 1rem;
-  font-family: Roboto, sans-serif;
 }
 
 /* swiper */
