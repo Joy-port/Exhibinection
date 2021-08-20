@@ -21870,7 +21870,7 @@ fieldset:disabled .btn {
   left: 0;
   right: 0;
   height: 3px;
-  background-color: #630834;
+  background-color: #e31277;
 }
 
 .timeline-pointer {
@@ -21893,12 +21893,12 @@ fieldset:disabled .btn {
   -webkit-transform: translate(-50%, -25%);
       -ms-transform: translate(-50%, -25%);
           transform: translate(-50%, -25%);
-  background-color: #630834;
+  background-color: #e31277;
 }
 
 .timeline-pointer-undone::after {
   content: " ";
-  border: 1px solid #630834;
+  border: 1px solid #e31277;
   background-color: #fff;
 }
 
