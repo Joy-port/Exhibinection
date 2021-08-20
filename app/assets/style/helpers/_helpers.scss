@@ -41,3 +41,12 @@
     margin-bottom: 42px;
   }
 }
+
+/* vh */
+
+.vh-100-minus-header {
+  height: calc(100vh - 60px);
+  @include media-breakpoint-up(md) {
+    height: calc(100vh - 90px);
+  }
+}
