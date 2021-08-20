@@ -44,8 +44,13 @@
 
 /* vh */
 
-.vh-100-lg-header {
+.vh-100-md-header-navbar {
+  @include media-breakpoint-up(md) {
+    height: calc(100vh - 145px);
+  }
+}
 
+.vh-100-lg-header {
   @include media-breakpoint-up(lg) {
     height: calc(100vh - 92px);
   }
