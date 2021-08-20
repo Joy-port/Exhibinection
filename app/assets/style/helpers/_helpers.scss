@@ -44,9 +44,9 @@
 
 /* vh */
 
-.vh-100-minus-header {
-  height: calc(100vh - 60px);
-  @include media-breakpoint-up(md) {
-    height: calc(100vh - 90px);
+.vh-100-lg-header {
+
+  @include media-breakpoint-up(lg) {
+    height: calc(100vh - 92px);
   }
 }

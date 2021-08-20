@@ -10,7 +10,7 @@ display: "d-none"
 <main>
   <!-- 修正d-none 為order 排列方式 mobile 為優先排列 -->
   <section>
-    <div class="container-md vh-100-minus-header">
+    <div class="container-md vh-100-lg-header">
       <div class="d-flex flex-column h-100">
         <!-- timeline -->
         <div class="row">
@@ -43,7 +43,7 @@ display: "d-none"
         <div class="row flex-lg-grow-1">
           <!--  payment info form 記得加上validation-->
           <div class="col-lg-4 order-md-1 order-lg-2">
-            <form class="mb-12">
+            <form class="mb-12 needs-validation" novalidate>
               <h3 class="h6 fw-medium mb-6">付款資訊</h3>
 
               <div class="mb-6">
@@ -56,7 +56,8 @@ display: "d-none"
                   id="buyerCreditCard"
                   class="form-control text-dark py-2"
                   placeholder="Xxxx-xxxx-xxxx-xxxx"
-                />
+                  required
+                >
               </div>
               <div class="mb-6">
                 <label for="validDate" class="form-label">有效日期</label>
@@ -66,9 +67,10 @@ display: "d-none"
                   id="validDate"
                   class="form-control text-dark py-2"
                   placeholder="(MM/YY)"
-                />
+                  required
+                >
               </div>
-              <div class="mb-6">
+              <div class="mb-10">
                 <label for="securityCode" class="form-label">安全碼</label>
                 <input
                   type="password"
@@ -76,12 +78,14 @@ display: "d-none"
                   id="securityCode"
                   class="form-control text-dark py-2"
                   placeholder="***"
-                />
+                  required
+                >
               </div>
+              <button type="submit" class="btn btn-outline-primary w-100">確認付款資訊</button>
             </form>
           </div>
           <!-- 小計 mobile -->
-          <div class="col order-md-2 d-lg-none mb-5 mb-lg-0">
+          <div class="col order-md-2 d-lg-none mb-12">
             <ul>
               <li
                 class="
@@ -122,7 +126,7 @@ display: "d-none"
             </ul>
           </div>
           <!-- exhibition info -->
-          <div class="col-lg-8 order-md-3 order-lg-1 mb-lg-0 mb-12">
+          <div class="col-lg-8 order-md-3 order-lg-1 mb-12">
             <ul>
               <li class="card border-0 mb-6 card-close">
                 <div class="card-body d-flex justify-content-between p-0 mb-2">
@@ -336,7 +340,7 @@ display: "d-none"
                   </div>
                 </div>
               </li>
-              <li class="card border-0 mb-6 card-close">
+              <li class="card border-0 card-close">
                 <div class="card-body d-flex justify-content-between p-0 mb-2">
                   <div class="d-flex">
                     <div class="w-50 w-md-25 me-5">
@@ -493,7 +497,7 @@ display: "d-none"
           <div class="col-6 col-md-3 col-lg-2">
             <a
               href="order-info.html"
-              class="btn btn-outline-primary w-100 me-5 | hvr-shrink"
+              class="btn btn-outline-primary w-100 | hvr-shrink"
               >返回</a
             >
           </div>
@@ -501,6 +505,7 @@ display: "d-none"
             <a
               href="payment-done.html"
               class="btn btn-secondary w-100 | hvr-shrink"
+              type="submit"
               >下一步
             </a>
           </div>
