@@ -11,7 +11,7 @@
         left: 0;
         right: 0;
         height: 3px;
-        background-color: #e31277;
+        background-color:  map-get($theme-colors, "primary");
       }
     }
   
@@ -28,14 +28,14 @@
         height: 8px;
         border-radius: 50%;
         transform: translate(-50%, -25%);
-        background-color: #e31277;
+        background-color:map-get($theme-colors, "primary");
       }
   
       &-undone {
         &::after {
           content: " ";
-          border: 1px solid #e31277;
-          background-color: #fff;
+          border: 1px solid map-get($theme-colors, "primary");
+          background-color: map-get($theme-colors, "white");;
         }
       }
     }
