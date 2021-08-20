@@ -21670,6 +21670,24 @@ fieldset:disabled .btn {
   animation-iteration-count: 1;
 }
 
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-bottom: 0;
+}
+
+a {
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
 /* img */
 .bg-img {
   background-size: cover;
