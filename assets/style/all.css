@@ -21741,17 +21741,7 @@ img {
 
 @media (min-width: 768px) {
   .vh-100-minus-header {
-    height: calc(100vh - 82px);
-  }
-}
-
-.vh-100-minus-header-navbar {
-  height: calc(100vh - 115px);
-}
-
-@media (min-width: 768px) {
-  .vh-100-minus-header-navbar {
-    height: calc(100vh - 135px);
+    height: calc(100vh - 90px);
   }
 }
 
