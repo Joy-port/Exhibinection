@@ -16,3 +16,8 @@ a{
 img{
     vertical-align: middle;
 }
+
+//動畫效果清除x軸
+html, body {
+    overflow-x: hidden;
+}
