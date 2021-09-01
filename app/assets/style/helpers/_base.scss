@@ -11,6 +11,9 @@ h1, h2, h3, h4, h5, h6, p, .h1, .h2, .h3, .h4, .h5, .h6{
 
 a{
     padding: 0;
+    &:hover{
+        opacity: .7;
+    }
 }
 
 img{

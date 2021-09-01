@@ -1,0 +1,34 @@
+.btn-primary{
+    &:hover{
+        color:#630834;
+        border-color: #630834;
+        background-color: transparent;
+        opacity: 1;
+    }
+}
+.btn-outline-primary{
+    &:hover{
+        color:#EFEFEF;
+        border-color: transparent;
+        background-color: #630834;
+        opacity: 1;
+    }
+}
+
+.btn-secondary{
+    &:hover{
+        color:#E31277;
+        border-color: #E31277;
+        background-color: transparent;
+        opacity: 1;
+    }
+}
+
+.btn-outline-light{
+    &:hover{
+        color:#E31277;
+        border-color: #E31277;
+        background-color: transparent;
+        opacity: 1;
+    }
+}
