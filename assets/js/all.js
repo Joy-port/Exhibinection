@@ -15,13 +15,17 @@ var swiper = new Swiper(".swiper-js", {
     disableOnInteraction: true
   },
   breakpoints: {
-    576: {
-      slidesPerView: 1,
-      spaceBetween: 0
+    414: {
+      slidesPerView: 1.5,
+      spaceBetween: 15
     },
-    768: {
+    576: {
       slidesPerView: 2,
       spaceBetween: 15
+    },
+    768: {
+      slidesPerView: 2.5,
+      spaceBetween: 30
     },
     992: {
       slidesPerView: 3,
