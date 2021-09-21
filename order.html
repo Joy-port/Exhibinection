@@ -833,24 +833,14 @@
             href="#signInModalToggle"
             data-bs-toggle="modal"
             role="button"
-            class="
-              d-none d-md-block
-              link-dark
-              px-3
-              hvr-underline-from-center
-            "
+            class="d-none d-md-block link-dark px-3 hvr-underline-from-center"
             >Sign in</a
           >
           <a
             href="#signUpModalToggle"
             data-bs-toggle="modal"
             role="button"
-            class="
-              d-none d-md-block
-              link-dark
-              px-3
-              hvr-underline-from-center
-            "
+            class="d-none d-md-block link-dark px-3 hvr-underline-from-center"
             >Sign up</a
           >
         </div>
@@ -885,14 +875,7 @@
 
       <!-- tickets list -->
       <!-- 使用flex grow 撐開上下空間 -->
-      <ul
-        class="
-          scroll-bar
-          flex-grow-1
-          overflow-auto
-          pe-2 pe-md-5
-        "
-      >
+      <ul class="scroll-bar flex-grow-1 overflow-auto pe-2 pe-md-5">
         <li class="card border-0 mb-2 card-close">
           <button
             type="button"
@@ -1055,7 +1038,9 @@
                 />
                 <div class="d-flex flex-column justify-content-between ms-5">
                   <div class="title flex-grow-1">
-                    <h4 class="fs-7 fw-bold mb-0">虛擬戀人 the Future of Humans</h4>
+                    <h4 class="fs-7 fw-bold mb-0">
+                      虛擬戀人 the Future of Humans
+                    </h4>
                     <p class="mb-0">01 JUN — 31 OCT</p>
                     <p class="link-dark">全票</p>
                   </div>
@@ -1146,10 +1131,7 @@
                   required
                 />
               </div>
-              <button
-                class="btn btn-secondary text-center w-100"
-                type="submit"
-              >
+              <button class="btn btn-secondary text-center w-100" type="submit">
                 登入
               </button>
             </form>
@@ -1290,5 +1272,19 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-QRVDE59S04"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-QRVDE59S04");
+    </script>
   </body>
 </html>
