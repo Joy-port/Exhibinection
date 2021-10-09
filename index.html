@@ -48,12 +48,13 @@
       <div class="container">
         <!-- 排列要從md 斷點後再做設置，要不然漢堡選單下拉的位置無法定位 -->
         <!-- flex grow 展開區域寬度 -->
-        <h1 class="text-center mb-0 p-0 flex-grow-1 | order-lg-first">
+        <div class="d-none d-lg-block nav-overlay | order-lg-first"></div>
+        <h1 class="text-center mb-0 p-0 flex-grow-1">
           <a
             href="index.html"
             class="navbar-brand d-block fs-5 text-primary py-18 me-0 py-md-8"
             href="#"
-            >EXHIBINECTION</a
+            >EXHIBINECTION 藝術展</a
           >
         </h1>
 
@@ -293,7 +294,7 @@
     background-image: url(https://images.unsplash.com/photo-1506846540181-347008948fff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1193&q=80);
   "
 >
-  <div class="container-md h-100">
+  <div class="container-md overflow-hidden h-100">
     <div
       class="
         d-flex
@@ -504,11 +505,12 @@
       >
         熱門特展
       </h3>
-      <ul>
+      <ul class="overflow-hidden">
         <li
           class="card border-0 bg-light | py-7 px-5 mb-5 | p-md-0 mb-md-6"
           data-aos="fade-left"
           data-aos-duration="1400"
+          
         >
           <div class="row g-0 gx-7">
             <div
